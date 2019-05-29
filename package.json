@@ -1,0 +1,25 @@
+{
+	"name": "crud",
+	"version": "1.0.0",
+	"description": "NodeJS - CRUD Project to reference",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"author": "kiaonline",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"debug": "^4.1.1",
+		"ejs": "^2.6.1",
+		"express": "^4.17.1",
+		"mongoose": "^5.5.11",
+		"mongoose-paginate": "^5.0.3",
+		"require-dir": "^1.2.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
+}
